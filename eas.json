@@ -1,22 +1,16 @@
 
 {
+  "cli": {
+    "version": ">= 5.0.0"
+  },
   "build": {
-    "development": {
-      "distribution": "internal",
+    "production": {
       "android": {
         "buildType": "apk"
       }
-    },
-    "production": {
-      "android": {
-        "buildType": "aab"
-      },
-      "ios": {
-        "simulator": false
-      }
     }
   },
-  "cli": {
-    "version": ">= 5.0.0"
-  }
+  "env": {
+    "EXPO_TOKEN": "_"
+  }0pIMp_GSO9ppxuwH9NCA6Eb9q4tPXzAtSGjNw9sV
 }
